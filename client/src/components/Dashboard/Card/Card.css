@@ -1,0 +1,17 @@
+.Card__wrapper{
+    padding: 5% 7%;
+}
+.Card__box{
+    margin-bottom: 5%;
+}
+.Card__header, .Card__Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card__header-text{
+    font-size: 1rem;
+}
+.Card__img{
+    margin: 5% 0;
+}

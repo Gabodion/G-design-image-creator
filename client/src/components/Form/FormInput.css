@@ -1,0 +1,51 @@
+.Form__wrapper{
+    padding: 5% 7%;
+    margin-top: 30%;
+}
+.Form__logo{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--cta-color);
+    margin-bottom: 7%;
+}
+.Form__title{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.Form__button{
+    background-color: var(--cta-color);
+    color: var(--white-color);
+    border: none;
+}
+
+.Form__button:hover{
+    background-color: var(--cta-color);
+}
+.Form__signup-text{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 4%;
+}
+.Form__signup-btn{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cta-color);
+}
+.Form__signup-btn:hover{
+  
+    color: var(--cta-color);
+}
+
+@media screen and (min-width: 767px) {
+    .Form__wrapper{
+        padding: 5% 30%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .Form__wrapper{
+        margin-top: 8%;
+    }
+}
+
