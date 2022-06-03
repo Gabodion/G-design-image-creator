@@ -9,7 +9,8 @@ import Register from "./components/Form/Register"
 import DashNavigation from './components/Dashboard/Navigation/DashNavigation';
 import "./App.css"
 import Cards from "./components/Dashboard/Card/Card"
-import CreateCard from "./components/Dashboard/CreateCard/CreateCard"
+import CreateCard from "./components/Dashboard/CreateCard/CreateCard";
+
 
 
 
@@ -28,7 +29,7 @@ const App = () => {
           <Register />
         </Route>
         <Route exact path="/dashboard/my-designs">
-          <Cards />         
+          <Cards />           
         </Route>
         <Route exact path="/dashboard/create-new">
           <CreateCard />     
