@@ -3,10 +3,24 @@ import {Navbar, Form, Container, Nav, Button, FormControl, NavDropdown} from "re
 import Card from "../Card/Card";
 import {Link} from "react-router-dom";
 import "./DashNavigation.css"
+import { useDispatch, useSelector } from 'react-redux';
+import {logout} from "../../../actions/userActions"
+import { useHistory } from "react-router-dom";
 
 
 
 const DashNavigation = () => {
+    const history = useHistory();
+    const dispatch = useDispatch();
+    const userLogin = useSelector((state) => state.userLogin);
+    const {userInfo} = userLogin;
+
+
+    function handleClick(){
+        dispatch(logout());
+        history.push("/")
+    }
+
   return (
     <div>
         <Navbar bg="dark" variant="dark" expand="lg">
@@ -26,8 +40,8 @@ const DashNavigation = () => {
                     </NavDropdown>
                    
                 </Nav>
-                    <NavDropdown className="DashNav__user"  title="Gabriel" id="navbarScrollingDropdown" menuVariant="dark">
-                    <NavDropdown.Item><Button variant="outline-success">LogOut</Button></NavDropdown.Item>
+                    <NavDropdown className="DashNav__user"  title={userInfo.username} id="navbarScrollingDropdown" menuVariant="dark">
+                    <NavDropdown.Item><Button variant="outline-success" onClick={handleClick}>LogOut</Button></NavDropdown.Item>
                     </NavDropdown>
                     
                 

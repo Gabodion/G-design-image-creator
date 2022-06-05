@@ -3,6 +3,8 @@ const details = require("./details");
 const dotenv = require("dotenv");
 const connectDB = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
+const designRoutes = require("./routes/designRoutes");
+const {notFound, errorHandler} = require("./middleware/errorMiddleware")
 
 const app = express();
 dotenv.config();
@@ -16,7 +18,12 @@ app.get("/api/details", (req, res) => {
     res.json(details)
 })
 
-app.use("api/users", userRoutes)
+app.use("/api/users", userRoutes)
+app.use("/api/designs", designRoutes)
+
+app.use(notFound)
+app.use(errorHandler)
+
 
 
 const PORT = process.env.PORT || 5000
