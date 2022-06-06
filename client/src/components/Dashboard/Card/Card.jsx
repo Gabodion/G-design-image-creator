@@ -37,7 +37,7 @@ const Cards = () => {
                     <Card className="Card__box">
                         <Card.Header as="h5" className="Card__header">
                             <p className='Card__header-text'>{data.category}</p>
-                            <p className='Card__header-text'>{}</p>
+                            <p className='Card__header-text'>{data.createdAt.substring(0, 10)}</p>
                         </Card.Header>
                         <Card.Body>
                             <Card.Title>{data.description}</Card.Title>
