@@ -3,9 +3,9 @@ A MERN Fullstack Application
 
 ![g-design-home](https://user-images.githubusercontent.com/82173296/172152634-7218980a-1f35-4df2-829e-38f3be1da693.PNG)
 
-In the the Project directory, run <strong>npm install </strong> express in the terminal and run <strong>npm start</strong>
+In the the Project directory, run <strong>npm install </strong> express in the terminal and run <strong>npm start</strong> to start the server.
 
-In the client directory, run <strong>npm install </strong> in another terminal window....both actions will install the required node_module folder and run <strong>npm start</strong>.
+In the client directory, run <strong>npm install </strong> in another terminal window....both actions will install the required node_module folder and run <strong>npm start</strong> to  start the client.
 
 <h2>OR</h2>
 
