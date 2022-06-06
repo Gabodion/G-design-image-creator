@@ -21,6 +21,6 @@ const createDesigns = asyncHandler(async (req, res) => {
     }
 })
 
-module.exports = { getDesign, createDesigns }
+module.exports = { getDesign, createDesigns };
 
 
