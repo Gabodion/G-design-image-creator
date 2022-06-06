@@ -1,0 +1,39 @@
+nav{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black-color);
+}
+.nav__bg{
+    background-color: var(--white-color);
+}
+.nav__logo{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.nav__logo:hover{
+    color: var(--white-color);
+}
+
+.nav__button a{
+    text-decoration: none;
+    color: var(--white-color);
+    border: 1px solid var(--cta-color);
+    padding: 10px 14px;
+}
+.nav__button a:hover{
+
+    color: var(--white-color);
+    background-color: var(--cta-color);
+    
+}
+
+@media screen and (min-width: 1023px){
+    nav{
+        padding: 1% 8%;
+    }
+}
+    
+

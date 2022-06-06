@@ -1,0 +1,31 @@
+{
+  "name": "g-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabodion/G-design-image-creator.git"
+  },
+  "author": "Gabodion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabodion/G-design-image-creator/issues"
+  },
+  "homepage": "https://github.com/Gabodion/G-design-image-creator#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.2.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,4 @@
+.DashNav__user .nav-link, .dropdown-item a{
+    color: var(--white-color);
+    text-decoration: none;
+}

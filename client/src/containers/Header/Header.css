@@ -1,0 +1,75 @@
+.Header__wrapper{
+    padding: 5% 7%;
+}
+.Header__title{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+    margin: 10% 0 6%;
+    font-weight: 400;
+}
+.Header__title span{
+    color: var(--cta-color);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.Header__text{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.Header__wrapper .btn{
+    background-color: var(--cta-color);
+    color: var(--white-color);
+}
+
+.Header__button{
+    margin-left: 33%;
+    margin-bottom: 10%;
+}
+.Header__button a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.Header__img{
+    width: 100%;
+}
+
+@media screen and (min-width: 767px){
+    .Header__title{
+        font-size: 4rem;
+        line-height: 1.1;
+
+    }
+    .Header__title span{
+        font-size: 6rem;
+
+    }
+    .Header__text{
+        font-size: 1.7rem;
+    }
+    .Header__wrapper .btn{
+        font-size: 1.6rem;
+        
+    }
+    .Header__button{
+        margin-left: 39%;
+    
+    }
+}
+@media screen and (min-width: 1023px){
+    .Header__wrapper{
+        padding: 3% 7%;
+    }
+    .Header__title, .Header__text{
+        text-align: left;
+    }
+    .Header__text{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    .Header__button{
+        margin-left: 0;
+    
+    }
+}

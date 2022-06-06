@@ -1,0 +1,17 @@
+.Footer__wrapper{
+    background-color: var(--black-color);
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 0; */
+  
+    
+}
+.Footer__text{
+    background-color: var(--black-color);
+    font-size: 1rem;
+    text-align: center;
+    color: var(--white-color);
+    padding: 1% 0;
+    margin-bottom: 0;
+
+}
