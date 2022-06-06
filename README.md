@@ -1,5 +1,6 @@
 # G-design-image-creator
-A MERN Fullstack Application 
+A MERN Fullstack and fully Responsive Web Application 
+
 
 ![g-design-home](https://user-images.githubusercontent.com/82173296/172152634-7218980a-1f35-4df2-829e-38f3be1da693.PNG)
 
@@ -9,11 +10,11 @@ In the client directory, run <strong>npm install </strong> in another terminal w
 
 <h2>OR</h2>
 
-Run <strong>npm run dev</strong> the project directory to start the client and server side simultaneously which will start the program
+Run <strong>npm run dev</strong> in the project directory to start the client and server side simultaneously which will start the program.
 
 
-The user login and logout functionality has been implemented
-Access to an active users designs has been implemented
+The user login and logout functionality has been implemented.
+Access to an active users designs has been implemented.
 
 <strong>Tools</strong>
 <ul>
@@ -28,5 +29,5 @@ Access to an active users designs has been implemented
 
 
 
-The edit and delete button functionality not working yet
+The edit and delete button functionality are not working yet.
 
